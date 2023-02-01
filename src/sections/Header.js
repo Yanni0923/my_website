@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 // import { Container } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { DeepBlue, DeepPink } from "../components/common/MyColor";
+import { ColorDeepBlue, ColorDeepPink } from "../components/common/MyColor";
 
 const StyledHeader = styled.header`
   transition: all 0.5s;
@@ -27,7 +27,7 @@ const StyledHeader = styled.header`
 
     a,
     a:hover {
-      color: ${DeepBlue};
+      color: ${ColorDeepBlue};
       text-decoration: none;
     }
   }
@@ -55,7 +55,7 @@ const StyledNavbar = styled.nav`
     padding: 10px 0 10px 30px;
     font-size: 14px;
     font-weight: 700;
-    color: ${DeepBlue};
+    color: ${ColorDeepBlue};
     white-space: nowrap;
     transition: 0.3s;
     text-decoration: none;
@@ -64,7 +64,7 @@ const StyledNavbar = styled.nav`
   .active,
   .active:focus,
   .li:hover > a {
-    color: ${DeepPink};
+    color: ${ColorDeepPink};
   }
 `;
 

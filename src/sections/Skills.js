@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Container } from "react-bootstrap";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Skills = () => {
   return (
