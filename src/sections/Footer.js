@@ -15,7 +15,7 @@ const Copyright = styled.div`
 
 const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter id="copyright">
       <Container>
         <Copyright>
           &copy; Copyright{" "}

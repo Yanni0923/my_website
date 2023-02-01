@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 const About = () => {
   return (
     <>
-      <h1>About</h1>
+      <div style={{ height: 500 }}>About</div>
     </>
   );
 };

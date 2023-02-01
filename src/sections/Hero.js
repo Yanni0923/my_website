@@ -37,7 +37,7 @@ const TypeCenter = styled.div`
 const Hero = () => {
   return (
     <>
-      <StyleHero url={HeroBG}>
+      <StyleHero url={HeroBG} id="hero">
         <div>
           <h1>Hi, I'm Yanni!</h1>
         </div>
