@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { Container } from "react-bootstrap";
 import Typed from "react-typed";
-import HeroBG from "../../src/images/hero-bg.jpg";
+import HeroBG from "../../src/img/hero-bg.jpg";
 
 const StyleHero = styled.div`
   width: 100%;
